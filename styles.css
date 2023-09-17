@@ -1,0 +1,21 @@
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 48px;
+    text-align: center;
+    text-transform: capitalize;
+}
